@@ -37,6 +37,7 @@ public class Enemy : MonoBehaviour
         this.player = player;
         this.hpBar = hpBar;
         hpBar.maxValue = maxHP;
+        hpBar.value = maxHP;
     }
 
     protected virtual void Update()
